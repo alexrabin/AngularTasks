@@ -1,0 +1,19 @@
+<div class="newTask">
+   <a routerLink="../tasks"> <fa-icon [icon]="arrow" style="float: left;margin-left: 10px;"></fa-icon> </a>
+    <h2 style="text-align: center;">Create New Task</h2>
+    <div style="text-align: center;">
+            <form (ngSubmit)="onSubmit()" >
+                <div>
+                    <label for="title">Title: </label>
+                    <input type="title" placeholder="title" name="title" required [(ngModel)]="model.title">
+                </div>
+                <div>
+                    <label for="message">Message: </label>
+                    <textarea type="text" placeholder="message" name="message" required [(ngModel)]="model.message"></textarea>               
+                 </div>
+                 <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+    </div>
+</div>

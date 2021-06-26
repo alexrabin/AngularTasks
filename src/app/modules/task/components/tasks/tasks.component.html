@@ -1,0 +1,11 @@
+<div class="tasks">
+    <h2 id="title">Tasks</h2>
+    <p *ngIf="tasks.length == 0">All Tasks Complete</p>
+    <a class="btn" routerLink="../createTask">New Task</a>
+    <div *ngFor="let t of tasks" class="card">
+        <h4>{{t.title}}</h4>
+        <p>{{t.message}}</p>
+        <div (click)="deleteTask(t)"><fa-icon [icon]="trashIcon"></fa-icon></div>
+    </div>
+    
+</div>
