@@ -1,6 +1,6 @@
-# AngularFinalProject
+# AngularTasks
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+A basic tasks webapp using a json database to store the tasks.
 
 ## Development server
 
