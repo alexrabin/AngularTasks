@@ -5,7 +5,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import { TasksComponent } from './components/tasks/tasks.component';
 import { CreateTaskComponent } from './components/create-task/create-task.component';
 import { TasksService } from './services/tasks.service';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -14,6 +14,7 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     FontAwesomeModule,
     FormsModule,
+    ReactiveFormsModule,
     RouterModule
   ],
   providers: [TasksService],

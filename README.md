@@ -6,6 +6,10 @@ A basic tasks webapp using a json database to store the tasks.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+Download [json-server](https://github.com/typicode/json-server) globablly on computer.
+
+Run `json-server --watch tasksdb.json` to run the tasks database.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
