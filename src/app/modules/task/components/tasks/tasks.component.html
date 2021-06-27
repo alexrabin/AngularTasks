@@ -1,6 +1,5 @@
 <div class="tasks container">
     <h2 id="title">Tasks</h2>
-    <a class="btn btn-primary" routerLink="../createTask">New Task</a>
     <p *ngIf="tasks.length == 0">All Tasks Complete</p>
     <div *ngFor="let t of tasks" class="card">
         <h4>{{t.title}}</h4>
