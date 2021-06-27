@@ -19,6 +19,11 @@
       "title": "New Task Demo",
       "id": 904806,
       "message": "What sup im a new task"
+    },
+    {
+      "title": "This is a test title",
+      "id": 139827,
+      "message": "This message was created with the updated bootstrap ui"
     }
   ]
 }
